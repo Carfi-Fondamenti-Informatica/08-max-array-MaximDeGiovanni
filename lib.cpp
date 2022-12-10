@@ -1,3 +1,4 @@
+
 #include "lib.h"
 float numeromassimo ( const float numeri [], int dim) {
     numeri [dim];
