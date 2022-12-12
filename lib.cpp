@@ -1,14 +1,23 @@
 
+#include <iostream>
 #include "lib.h"
-float numeromassimo ( const float numeri [], int dim) {
-    numeri [dim];
-    float massimo= numeri[0];
-    for (int i=0; i<dim; i++) {
-        if (massimo<numeri[i]) {
-            massimo = numeri[i];
 
-        }
+using namespace std;
+
+bool lettera(char &a){
+    if (a >=65 && a <=90 )
+    {
+        a+= 32;
+        return true;
     }
-    return 0;
+    else if(a >=97 && a<=122 )
+    {
+        a-=32;
+        return true;
+    }
+    else
+       return false;
+    
+
 }
 
