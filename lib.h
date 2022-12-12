@@ -1,6 +1,1 @@
-
-
-
-bool lettera(char &a);
-
-
+float max (float pt[], int n);
