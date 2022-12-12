@@ -1,23 +1,19 @@
-
-#include <iostream>
+ 
 #include "lib.h"
 
-using namespace std;
-
-bool lettera(char &a){
-    if (a >=65 && a <=90 )
+float max (float pt[], int n)
+{ int i=0;
+    while (i<n)
     {
-        a+= 32;
-        return true;
+        if (pt[0]>pt[i])
+        {
+            i++;
+        }
+        else
+        {
+            pt[0]=pt[i];
+         i++;
+        }
     }
-    else if(a >=97 && a<=122 )
-    {
-        a-=32;
-        return true;
-    }
-    else
-       return false;
-    
-
+    return pt[0];
 }
-
