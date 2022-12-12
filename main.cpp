@@ -10,4 +10,3 @@ int main() {
         cout<<"errore"<<endl;
     return 0;
 }
-
